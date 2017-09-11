@@ -31,7 +31,7 @@ cxx_library(
         "-fexceptions",
         "-frtti",
         "-Wall",
-        "-Werror",
+        "-Wno-error",
         "-Wno-unused-parameter",
         "-std=c++11",
     ],
